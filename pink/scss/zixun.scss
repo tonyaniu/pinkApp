@@ -1,0 +1,81 @@
+.zixun-header{
+	width:100%;
+	.zixun-nav{
+		width:100%;
+		height:3.5rem;
+		display:-webkit-box;
+		background:#212121;
+		-webkit-box-pack:center;
+		-webkit-box-align:center;
+		position:relative;
+		li{
+			-webkit-box-flex:1;
+			text-align:center;
+			padding:0.8rem;
+			a{
+				color:#48494c;	
+			}
+			&.zixun-on{	
+				border-bottom:1px solid #dd4868;
+				a{
+				color:#dd4868;
+				}
+			}
+
+			&.zixun-search{
+				position:absolute;
+				right:0;
+				bottom:0;
+				img{
+					width:80%;
+					display:block;
+				}
+			}	
+		}
+	}
+}
+.zixun-pro{
+	width:100%;
+	display:-webkit-box;
+	
+	-webkit-box-orient:vertical;
+	background:#fff;
+	dl{
+		width:100%;
+		-webkit-box-flex:1;
+		display:-webkit-box;
+		padding:1rem;
+		border-bottom:1px solid #ccc;
+		dt{
+			width:13.625rem;
+			height:7.3rem;
+			img{
+				width:100%;
+				display:block;
+			}
+		}
+		dd{
+			-webkit-box-flex:1;
+			padding-left:1rem;
+			display:-webkit-box;
+			-webkit-box-orient:vertical;
+			-webkit-box-pack:justify;
+			h3{
+				overflow:hidden;
+				text-overflow:ellipsis;
+				display:-webkit-box;
+				-webkit-line-clamp:2;
+				-webkit-box-orient:vertical;
+			}
+			p{
+				font-size:1rem;
+				span{
+					float:right;
+					right:0;
+					bottom:0;
+					color:#dd4868;
+				}
+			}
+		}
+	}
+}

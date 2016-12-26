@@ -1,0 +1,38 @@
+{
+	"baohepage":{
+		"topLunbo":["<img src='images/banner2.jpg'>","<img src='images/banner3.jpg'>","<img src='images/banner3.jpg'>"],
+		"baohe-order":[
+			{
+				"img":"images/b.png",
+				"title":"满城尽带黄金甲Pink定制黄金项链满城尽带黄金甲Pink定制黄金项链满城尽带黄金甲Pink定制黄金项链",
+				"price":"￥888.00"
+			},
+			{
+				"img":"images/b.png",
+				"title":"满城尽带黄金甲Pink定制黄金项链满城尽带黄金甲Pink定制黄金项链满城尽带黄金甲Pink定制黄金项链",
+				"price":"￥888.00"
+			},
+			{
+				"img":"images/b.png",
+				"title":"满城尽带黄金甲Pink定制黄金项链满城尽带黄金甲Pink定制黄金项链满城尽带黄金甲Pink定制黄金项链",
+				"price":"￥888.00"
+			}
+			],
+		"baohe-mingxing":{
+			"simg":"images/c_03.png",
+			"title":"给你权志龙的味道 GD宝盒",
+			"price":"￥777.00",
+			"bimg":"images/d.png"
+		},
+		"baohe-changjing":[{
+			"img":"images/e.png",
+			"title":"冬日奢华Evelyn玫瑰美肤宝盒"
+			},
+			{
+			"img":"images/a_r2_c1.png",
+			"title":"冬日奢华Evelyn玫瑰美肤宝盒"
+				}]
+
+
+		}
+}

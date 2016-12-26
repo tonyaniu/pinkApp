@@ -1,0 +1,158 @@
+.wrap{
+	width:100%;
+	.info-img{
+		background:#fff;
+		width:100%;
+		dt{
+			img{
+			width:100%;
+			display:inline-block;
+			}
+		}
+		dd{
+		margin-top:1rem;
+		text-align:center;
+		padding:1rem 0;
+			p{
+				color:#DF5472;
+			}
+		}
+	}
+	.info-nav{
+		width:100%;
+		background:#fff;
+		margin:1rem 0;
+		ul{
+			width:100%;
+			display:-webkit-box;
+			li{
+			-webkit-box-flex:1;
+			text-align:center;
+			padding:1rem 0;
+				a{
+					font-size:1.33rem;
+				}
+				&.active{
+					border-bottom:2px solid #DF5472;
+				}
+			}
+		}
+	}
+
+	.main{
+		width:100%;
+		.content-explain{
+			width:100%;
+			img{
+				width:100%;
+			}
+		}
+		.content-plat{
+			display:none;
+			.content-plat-header{
+				background:#fff;
+				width:100%;
+				display:-webkit-box;
+				padding:0 0.5rem;
+				dl{
+					-webkit-box-flex:1;
+					-webkit-box-align:center;
+					-webkit-box-pack:center;
+					padding-bottom:1rem;
+					border-bottom:1px solid #7A7D83;
+					dt{
+						padding:0.75rem 3.2rem;
+						img{
+							width:100%;
+							display:block;
+						}
+					}
+					dd{
+						text-align:center;			
+					}
+				}
+			}
+			.content-plat-info{
+				width:100%;
+				padding:0 2rem;
+				border-bottom:1px solid #7A7D83;
+				background:#fff;
+				.info-promise{
+					width:100%;
+					h2{
+						font-size:1.333rem;
+						text-align:center;
+						color:#DF5472;
+						line-height:3.5rem;
+					}
+					h3{
+						font-size:1.12rem;
+						color:#DF5472;
+						line-height:2rem;
+					}
+					p{
+						line-height:2rem;
+						color:#7A7D83;
+					}
+				}
+			}
+		}
+		.content-comment{
+			width:100%;
+			padding:1rem;
+			background:#fff;
+			min-height:14rem;
+			display:none;
+			h2{
+				font-size:1.333rem;
+				line-height:3rem;
+			}
+			.write-comment{
+				height:4rem;
+				display:-webkit-box;
+				-webkit-box-align:center;
+				label{
+					display:block;
+					height:4rem;
+					width:4rem;
+					img{
+						display:block;
+						height:4rem;
+						width:4.2rem;
+					}
+				}
+				input{
+					-webkit-box-flex:1;
+					outline:none;
+					display:block;
+					height:2.5rem;
+					border:none;
+					background:#FAFAFA;
+					border-radius:0.5rem;
+					border-bottom:1px solid #A9A9A9;
+					margin-left:-1rem;
+					padding-left:1rem;
+
+				}
+			}
+		}
+	}
+
+	.buy{
+		width:100%;
+		height:3.67rem;
+		background:#3C3C3C;
+		position:relative;
+		bottom:0;
+		display:-webkit-box;
+		-webkit-box-align:center;
+		-webkit-box-pack:center;
+		button{
+			display:block;
+			color:white;
+			border:none;
+			background:none;
+			font-size:1.33rem;
+		}
+	}
+}

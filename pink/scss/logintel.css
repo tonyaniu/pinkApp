@@ -1,0 +1,44 @@
+.tel {
+  width: 100%;
+  background: #fff;
+  padding: 0px 0.833rem; }
+  .tel p {
+    height: 5rem;
+    line-height: 5rem;
+    border-bottom: 1px solid #ccc;
+    position: relative; }
+    .tel p .fa {
+      padding: 0 1rem; }
+    .tel p input {
+      border: none;
+      outline: none;
+      padding-left: 1rem; }
+    .tel p > button {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      background: none;
+      position: absolute;
+      right: 0;
+      top: 1rem; }
+    .tel p.tel-tip {
+      border-bottom: none;
+      color: #DD4868;
+      text-align: center; }
+
+.finish {
+  height: 3rem;
+  line-height: 3rem;
+  background: #8A8A8A;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border-radius: 0.5rem; }
+  .finish button {
+    border: none;
+    background: none;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 3rem; }
+
+/*# sourceMappingURL=logintel.css.map */

@@ -1,0 +1,170 @@
+.first{
+	-webkit-flex:1;
+	display:-webkit-flex;
+
+}
+.bbox{
+	width:100%;
+	-webkit-flex:1;
+	
+}
+.baohe-banner{
+	width:100%;
+	display:-webkit-box;
+	overflow:hidden;
+	a{
+		width:100%;
+		display:block;
+		position:relative;
+		img{
+			width:100%;
+			display:block;
+		}
+		span{
+			width:100%;
+			background:rgba(0,0,0,.2);
+			display:block;
+			position:absolute;
+			left:0;
+			bottom:0;
+			top:0;
+			right:0;
+			color:#fff;
+			font-size:24px;
+			display:-webkit-box;
+			-webkit-box-pack:center;
+			-webkit-box-align:center;
+			padding:0 20px;
+		}
+	}
+	
+}
+.swiper-pagination-bullet-active{
+		background:#fff;
+	}
+
+.baohe-order{
+	margin-top:1rem;
+	background:#fff;
+
+	h2{
+		height:4.677rem;
+		font-size:1.5rem;
+		line-height:4.677rem;
+		border-bottom:1px solid #666;
+		margin:0 1rem;
+		a{
+			float:right;
+		}
+	}
+	.order-img{
+		width:100%;
+		overflow:hidden;
+		display:-webkit-box;
+		
+		dl{
+			width:60%;
+			padding:1rem;
+			dt{
+				width:100%;
+				img{
+					width:100%;
+					display:block;
+					padding:0.25rem;
+					border:1px solid #ccc;
+					box-shadow:0 0 1px 1px #ccc;
+					border-radius:0.5rem;
+				}
+			}
+			dd{
+				text-align:center;
+				h3{
+					font-size:1.13rem;
+					white-space:nowrap;
+					overflow:hidden;
+					text-overflow:ellipsis;
+					width:100%;
+
+				}
+				p{
+					color:#e8849a;
+				}
+			}
+		}
+	}
+}
+.baohe-mingxing{
+	width:100%;
+	margin-top:1rem;
+	background:#fff;
+	.baohe-mingxing-content{
+		width:100%;
+		dl{
+			width:100%;
+			display:-webkit-box;
+			height:4rem;
+			-webkit-box-align:end;
+			padding:0 1rem;
+			dt{
+				width:4rem;	
+				height:4rem;
+
+				position:relative;
+				img{
+					width:100%;
+					position:absolute;
+					left:1.2rem;
+					top:2rem;
+				}
+			}
+			dd{
+				-webkit-box-flex:1;
+				padding-left:3rem;
+				span{
+					color:#e8849a;
+					float:right;
+				}
+			}
+
+		}
+		.baohe-mingxing-content-img{
+				width:100%;
+				padding:1rem;
+				img{
+					width:100%;
+				}
+			}
+	}
+}
+.baohe-changjing{
+	width:100%;
+	.baohe-changjing-pro{
+		width:100%;
+		display:-webkit-box;
+		padding:1rem;
+		-webkit-box-orient:vertical;
+		.baohe-changjing-list{
+			-webkit-box-flex:1;
+			position:relative;
+			border:1px solid #ccc;
+			border-radius:1rem;
+			margin:1rem 0;
+			img{
+				width:100%;
+				display:block;
+				
+			}
+			p{
+				position:absolute;
+				width:100%;
+				color:white;
+				bottom:0;
+				left:0;
+				height:2.5rem;
+				line-height:2.5rem;
+				text-align:center;
+				background:rgba(0,0,0,0.5)
+			}
+		}
+	}
+}

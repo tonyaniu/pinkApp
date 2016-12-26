@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>宝盒详情页</title>
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/pink.css">
+</head>
+<body>
+	<!--{宝盒详情页-->
+	<div class="wrap">
+		<header class="header">
+			<span><img src="images/back.png" alt=""></span>
+			<span><img src="images/a_r1_c2.png" alt=""></span>
+			<span>
+				<i><img src="images/a_r1_c4.png" alt=""></i>
+				<i><img src="images/a_r1_c6.png" alt=""></i>
+			</span>
+		</header>
+		<div class="first">
+		<div class="bbox">
+		<div class="sbox">
+					
+				
+		<!--{产品图片-->
+		<div class="info-img">
+			<dl>
+				<dt class="indexImg swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="images/a_r2_c1.png" alt=""></div>
+						<div class="swiper-slide"><img src="images/f.jpg" alt=""></div>
+						<div class="swiper-slide"><img src="images/a_r2_c1.png" alt=""></div>
+						<div class="swiper-slide"><img src="images/f.jpg" alt=""></div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</dt>
+				<dd>
+					<h3>冬风又能把我咋地 樱花身体滋养护理宝盒</h3>
+					<p>￥699.00</p>
+				</dd>
+			</dl>
+		</div><!--产品图片}-->
+		<!--{导航-->
+		<nav class="info-nav">
+			<ul>
+				<li class="active"><a href="javascript:;">宝盒说明</a></li>
+				<li><a href="javascript:;">平台信息</a></li>
+				<li><a href="javascript:;">评论</a></li>
+			</ul>
+		</nav><!--导航}-->
+		<!--{分类下的内容-->
+		<section class="main">
+			<!--{宝盒说明-->
+			<section class="main-content content-explain">
+				<img src="images/xiangqing.png" alt="">
+				<img src="images/xiangqing.png" alt="">
+			</section><!--宝盒说明}-->
+
+			<!--{平台信息-->
+			<section class="main-content content-plat">
+				<header class="content-plat-header">
+					<dl>
+						<dt><img src="images/pingtai_r1_c1.png" alt=""></dt>
+						<dd>明星推荐</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/pingtai_r1_c1.png" alt=""></dt>
+						<dd>全球正品</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/pingtai_r1_c1.png" alt=""></dt>
+						<dd>交易担保</dd>
+					</dl>
+				</header>
+				<div class="content-plat-info">
+					<div class="info-promise">
+						<h2>Pink平台承诺</h2>
+						<h3>【100%正品商品】</h3>
+						<p>Pink作为明星投资的时尚电商.而骄傲了加尕李俊果</p>
+						<p>Pink作为明星投资的时尚电商.而骄傲了加尕李发卡鼓楼大李发卡鼓楼大街阿姐鼓俊果</p>
+						<p>Pink作为明星投资的时尚电商.而骄傲了加尕李发卡李发卡鼓楼大鼓楼大街阿姐鼓俊果</p>
+						<p>Pink作为明星投资的时尚电商.而骄傲了加尕李发李发卡鼓楼大卡鼓楼大街阿姐鼓俊果</p>
+						<h3>【物流售后保障】</h3>
+						<p>Pink作为明星投资的时尚电商.而骄傲了加尕李李发卡鼓楼大发卡鼓楼大街阿姐鼓俊果</p>
+						<p>若您在收到货物起7天内产生非加辣椒干啦桀骜个垃圾股爱干净恩爱了 埃及古拉就个爱金刚(service@pink.cc)联系Pink客服申请退货服务</p>
+					</div>
+					<div class="info-promise">
+						<h2>购买须知</h2>
+						<p>Pink作为明星投资的时尚电商.而骄傲了加尕李发卡鼓楼大街阿姐鼓俊果</p>
+					</div>
+				</div>
+			</section ><!--平台信息}-->
+
+			<!--{评论-->
+			<section class="main-content content-comment">
+				<h2>所有<span>0</span>条评论</h2>
+				<ul>
+					<li></li>
+				</ul>
+				<div class="write-comment">
+					<label for=""><img src="images/comment.png" alt=""></label><input type="text" placeholder="评论">
+				</div>
+			</section ><!--评论}-->
+		</section><!--分类下的内容}-->
+		
+		</div>
+		</div>
+		</div>
+		<footer class="buy">
+			<button class="fa fa-folder-open-o">购买</button>
+		</footer>
+	</div><!--宝盒详情页}-->
+	
+	<script src="js/zepto.js"></script>
+	<script src="js/tab.js"></script>
+	<script src="js/iscroll.js"></script>
+	<script>
+		Tab(".info-nav",".main")
+
+	</script>
+
+	<script src="js/sea.js"></script>
+	<script src="js/iscroll.js"></script>
+	<script>
+		seajs.use("swiper.js",function(lunbo){
+			lunbo.lunbo(".indexImg")
+		})
+		var myScroll=new IScroll(".bbox");
+		document.addEventListener("touchmove",function(e){
+				e.preventDefault();
+		},false)
+	</script>
+</body>
+</html>
